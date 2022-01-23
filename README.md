@@ -1,14 +1,14 @@
 # React + TypeScript + Webpack5 + React Router
 
-## プロジェクト前提
+## Project premise
 
-- できるだけ `ts` ファイルで構成する
-- `dev` は `webpack` の `devServer` で立ち上げる
-- `create-react-app` ではなく、 `webpack` でビルドする
+- Configure with `ts` files as much as possible.
+- Launch `dev` with `webpack` `devServer`.
+- Build with `webpack` instead of `create-react-app`.
 
 ---
 
-## 構成
+## composition
 
 |||
 |:---:|:---:|
@@ -23,33 +23,33 @@
 
 ---
 
-## コマンド
+## command
 
-### ローカルでdev実行
+### run dev locally
 
 ```bash
 npm run dev
 ```
 
-- `dist` を削除する
-- `dev` 用にビルドする
-- `webpack` の `devServer` で立ち上げる
+- `dist` To Clean
+- `dev` Build for
+- `webpack`  `devServer` Start up with
 
-### ローカルでprod実行
+### Run prod locally
 
 ```bash
 npm start
 ```
 
-- `dist` を削除する
-- `prod` 用にビルドする
-- `http-server` でローカルのHTTPサーバーをで立ち上げる
+- `dist` To remove
+- `prod` Build for
+- `http-server` Launch a local HTTP server with
 
-### prod用のビルドをする
+### Build for prod
 
 ```bash
 npm run build
 ```
 
-- `dist` を削除する
-- `prod` 用にビルドする
+- `dist` To remove
+- `prod` Build for
